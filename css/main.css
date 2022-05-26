@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body {
+        position: relative;
+        padding-bottom: 3em;
+        min-height: 100vh;
+    }
+
+.fondo {
+    background-image: url(../img/fotoinicio.jpg);
+}
+.fondo2 {
+    background-image: url(../img/fototrading.jpg);
+}
+
+h1, h2, h3, p {
+    color: white
+}
+p{
+    background-color: rgb(24, 21, 21);
+    
+}
+
+h5 {
+    color: red;
+    
+}
+
+footer {
+    padding-top: 10fr;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(rgb(28, 73, 39), rgba(4, 31, 0, 0.555));
+    position: absolute;
+bottom: 0;
+width: 100%;
+padding: 1em 0;
+}
+nav {
+background: linear-gradient(rgb(3, 114, 30), rgba(7, 20, 94, 0.555), rgb(0, 0, 0));
+}
